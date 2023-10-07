@@ -11,7 +11,7 @@ if spec_id ~= 1446 then return end
 
 local spells        = Project.Spells
 
-local Module        = Caffeine.Module:New("Stimulant: Warrior (Initial)", "stimulant")
+local Module        = Caffeine.Module:New("war")
 
 local Player        = Caffeine.UnitManager:Get("player")
 local Target        = Caffeine.UnitManager:Get("target")
