@@ -96,3 +96,5 @@ Project.Spells = {
     enrage_buff              = SpellBook:GetSpell(184362),
     whirlwind_buff           = SpellBook:GetSpell(85739),
 }
+
+print("Still here!")
