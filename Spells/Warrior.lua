@@ -2,6 +2,8 @@ local Unlocker, Caffeine, Project = ...
 
 local SpellBook = Caffeine.Globals.SpellBook
 
+print("I'm in the spellbook!")
+
 Project.Spells = {
     -- General
     avatar                   = SpellBook:GetSpell(107574),
