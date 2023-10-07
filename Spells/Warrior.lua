@@ -2,7 +2,7 @@ local Unlocker, Caffeine, Project = ...
 
 local SpellBook = Caffeine.Globals.SpellBook
 
-print("I'm in the spellbook!")
+print("I'm in the real spellbook!")
 
 Project.Spells = {
     -- General
