@@ -2,7 +2,7 @@ local Unlocker, Caffeine, Project = ...
 
 local SpellBook = Caffeine.Globals.SpellBook
 
-local spells = {
+Project.Spells = {
     -- General
     avatar                   = SpellBook:GetSpell(107574),
     battle_shout             = SpellBook:GetSpell(6673),
@@ -94,5 +94,3 @@ local spells = {
     enrage_buff              = SpellBook:GetSpell(184362),
     whirlwind_buff           = SpellBook:GetSpell(85739),
 }
-
-Project.Spells = spells
